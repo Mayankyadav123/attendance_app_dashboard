@@ -2,7 +2,7 @@ import feathers from '@feathersjs/client';
 import auth from '@feathersjs/client/authentication';
 
 // API host
-const host = process.env.REACT_APP_API_URL;
+const host = `https://itcinfotech-backend.herokuapp.com`;
 
 // feathers client
 const client = feathers()
