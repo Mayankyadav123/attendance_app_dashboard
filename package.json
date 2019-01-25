@@ -2,6 +2,7 @@
   "name": "sting",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://itcinfotech-dashboard.herokuapp.com/",
   "dependencies": {
     "@feathersjs/client": "^3.5.6",
     "antd": "^3.8.2",
@@ -20,7 +21,7 @@
   "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
-    "build": "react-scripts build",
+    "build": "react-app-rewired build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build",
